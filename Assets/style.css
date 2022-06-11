@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;1,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    max-width: 576px;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: raleway;
+}
+
+header {
+    background-color: rgba(189, 203, 32, 1);
+}
+
+header div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0px 40px;
+}
+
+header div h2 {
+    width: 343px;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 100%;
+    color: white;
+}
+
+header div :nth-child(2) {
+    width: 21.5px;
+    height: 21.5px;
+    color: rgba(221, 232, 107, 1);
+    /* padding: 100px 0px 40px; */
+}
+
+header div :nth-child(3) {
+    width: 16.93px;
+    height: 17.42px;
+    color: white;
+    /* padding: 100px 0px 40px; */
+}
+
+header :nth-child(2) form {
+    width: 342px;
+    height: 44px;
+    top: 37px;
+    border-radius: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.2);
+
+}
+
+header :nth-child(2) img {
+    position: absolute;
+    left: 400px;
+
+}
+
+header #slider {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+header #slider p {
+    size: 12px;
+    font-weight: 600px;
+    color: white;
+    padding: 40px;
+}
+
+/* ================= */
+
+header #innerNavi {
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+header #innerNavi #karte {
+    padding: 0;
+    background-color: #DDE86B;
+    flex: 288px;
+}
+
+header #innerNavi #liste {
+    padding: 0;
+    height: 28px;
+    background-color: white;
+    flex: 288px;
+}
+
+/* ===========Section 1 Bauerhaus ========= */
+
+main {
+    background-color: white;
+}
+
+
+
+
+
+/* =============Navigation================ */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+nav img {
+    width: 16.62px;
+    height: 16px;
+    top: 7.98px;
+    left: 7.69px;
+}
+
+#suche :first-child {
+    width: 60px;
+    height: 60px;
+}
+
+#suche :nth-child(2) {
+    width: 23.56px;
+    height: 26.46px;
+}
+
+#suche p {
+    font: roboto;
+    font-weight: 400;
+    size: 10px;
+    text-align: center;
+}
